@@ -158,7 +158,7 @@ class NNGSRunner(_NNRunnerBase):
             early_stopping=early_stopping,
             seed=seed,
             bias=bias,
-            max_iters=10000,
+            max_iters=1000,
         )
 
         # Update short name based on the algorithm
