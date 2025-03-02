@@ -158,6 +158,7 @@ class NNGSRunner(_NNRunnerBase):
             early_stopping=early_stopping,
             seed=seed,
             bias=bias,
+            **kwargs,
         )
 
         # Update short name based on the algorithm
